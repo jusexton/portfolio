@@ -59,23 +59,23 @@
 }
 
 .button:hover {
-  background-color: #555; /* Darken the button on hover */
+  background-color: #555;
 }
 
 .button svg {
-  width: 20px; /* Adjust icon size */
-  height: 20px; /* Adjust icon size */
+  width: 20px;
+  height: 20px;
 }
 
 .link {
   color: white;
   text-decoration: underline;
-  text-decoration-thickness: 1px; /* Thin underline */
+  text-decoration-thickness: 1px;
   text-underline-offset: 2px; /* Space between text and underline */
   transition: all 0.2s ease-in-out;
 }
 
 .link:hover {
   color: #bbb;
-  text-decoration-thickness: 2px; /* Thicker underline on hover */
+  text-decoration-thickness: 2px;
 }
