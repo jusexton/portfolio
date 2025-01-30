@@ -8,9 +8,9 @@ export default function Home() {
 
   return (
     <main className={`${styles.main} ${styles.gutters}`}>
-      <div>
+      <div className={styles.hero}>
         <h1 className={styles.gradient}>Justin Sexton</h1>
-        <h2 className={styles.hero}>Software Engineer</h2>
+        <h2 className={styles.heroText}>Software Engineer</h2>
       </div>
       <p className={styles.p}>
         Hi there! I am Senior Software Engineer at Slalom Build, where I channel
