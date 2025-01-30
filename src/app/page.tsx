@@ -4,6 +4,8 @@ import Image from "next/image";
 import downloadIcon from "../../public/icons/download.svg";
 
 export default function Home() {
+  const yearCount = new Date().getFullYear() - 2010;
+
   return (
     <main className={`${styles.main} ${styles.gutters}`}>
       <div>
@@ -11,10 +13,23 @@ export default function Home() {
         <h2 className={styles.hero}>Software Engineer</h2>
       </div>
       <p className={styles.p}>
-        I write software, change this later. Blah blah. Still need to change
-        this later. Just need this longer so that is looks more realistic. Do
-        not ask me why I have not grabbed some lorem ipsum by now. I guess I
-        just feel like typing.
+        Hi there! I am Senior Software Engineer at Slalom Build, where I channel
+        my passion for technology into creating innovative solutions. I love
+        what I do. With extensive experience across the modern web stack, I have
+        implemented and architected everything from intuitive front-end
+        experiences to robust service infrastructures.
+      </p>
+      <p className={styles.p}>
+        From my first Python project creating command line games {yearCount}{" "}
+        years ago, I knew I had found my calling. What began as a fascination
+        with programming has evolved into both a fulfilling career and a
+        passionate hobby that continues to this day.
+      </p>
+      <p className={styles.p}>
+        Feel free to connect on and LinkedIn! Whether you are interested in
+        discussing career opportunities, seeking technical advice, or just want
+        to collaborate, I am always open to meaningful conversations. Don&apos;t
+        hesitate to reach out.
       </p>
       <a
         href="/documents/resume.pdf"

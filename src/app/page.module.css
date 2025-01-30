@@ -14,15 +14,15 @@
 
 @media (min-width: 600px) {
   .gutters {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
 @media (min-width: 900px) {
   .gutters {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 
@@ -41,6 +41,7 @@
 .p {
   color: white;
   font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 .button {
@@ -64,4 +65,17 @@
 .button svg {
   width: 20px; /* Adjust icon size */
   height: 20px; /* Adjust icon size */
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 1px; /* Thin underline */
+  text-underline-offset: 2px; /* Space between text and underline */
+  transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+  color: #bbb;
+  text-decoration-thickness: 2px; /* Thicker underline on hover */
 }
