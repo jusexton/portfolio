@@ -13,10 +13,10 @@ export default function Home() {
         <h2 className={styles.heroText}>Software Engineer</h2>
       </div>
       <p className={styles.p}>
-        Hi there! I am a Senior Software Engineer at Slalom Build, where I channel
-        my passion for technology into creating innovative solutions. I love
-        what I do. With extensive experience across the modern web stack, I have
-        implemented and architected everything from intuitive front-end
+        Hi there! I am a Senior Software Engineer at Slalom Build, where I
+        channel my passion for technology into creating innovative solutions. I
+        love what I do. With extensive experience across the modern web stack, I
+        have implemented and architected everything from intuitive front-end
         experiences to robust service infrastructures.
       </p>
       <p className={styles.p}>
@@ -41,7 +41,7 @@ export default function Home() {
           priority
           className={styles.linkedin}
           src={downloadIcon}
-          alt="Connect with me on LinkedIn"
+          alt="Download my resume"
         />
       </a>
     </main>
