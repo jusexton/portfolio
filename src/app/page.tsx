@@ -13,7 +13,7 @@ export default function Home() {
         <h2 className={styles.heroText}>Software Engineer</h2>
       </div>
       <p className={styles.p}>
-        Hi there! I am Senior Software Engineer at Slalom Build, where I channel
+        Hi there! I am a Senior Software Engineer at Slalom Build, where I channel
         my passion for technology into creating innovative solutions. I love
         what I do. With extensive experience across the modern web stack, I have
         implemented and architected everything from intuitive front-end
@@ -26,10 +26,10 @@ export default function Home() {
         passionate hobby that continues to this day.
       </p>
       <p className={styles.p}>
-        Feel free to connect on and LinkedIn! Whether you are interested in
-        discussing career opportunities, seeking technical advice, or just want
-        to collaborate, I am always open to meaningful conversations. Don&apos;t
-        hesitate to reach out.
+        Feel free to connect on Github and LinkedIn! Whether you are interested
+        in discussing career opportunities, seeking technical advice, or just
+        want to collaborate, I am always open to meaningful conversations.
+        Don&apos;t hesitate to reach out.
       </p>
       <a
         href="/documents/resume.pdf"
