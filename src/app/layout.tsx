@@ -20,7 +20,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Justin Sexton",
-  description: "Portfolio website for software engineer Justin Sexton.",
+  description: "Personal website of software engineer Justin Sexton.",
+  authors: [{ name: "Justin Sexton" }],
+  openGraph: {
+    title: "Justin Sexton",
+    type: "website",
+    description: "Personal website of software engineer Justin Sexton.",
+    images: "/icons/logo.svg",
+    url: "https://justinsexton.dev",
+  },
   icons: {
     icon: "icons/favicon.ico",
   },
@@ -34,9 +42,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <nav className={styles.navigation}>
-          <Link href={"/"}>Justin Sexton</Link>
-        </nav>
+        <header>
+          <nav className={styles.navigation}>
+            <Link href={"/"}>Justin Sexton</Link>
+          </nav>
+        </header>
         {children}
         <footer className={styles.footer}>
           <a
