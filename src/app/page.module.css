@@ -53,7 +53,7 @@
   align-items: center;
   gap: 8px;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #555;
   border: none;
   border-radius: 7px;
   cursor: pointer;
@@ -63,7 +63,7 @@
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #666;
 }
 
 .button svg {
