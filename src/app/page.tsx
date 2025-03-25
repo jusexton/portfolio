@@ -13,7 +13,7 @@ export default function Home() {
         <h2 className={styles.heroText}>Software Engineer</h2>
       </div>
       <p className={styles.p}>
-        Hi there! I am a Senior Software Engineer at Slalom Build, where I
+        Hi there! I am a Software Architect at Slalom Build, where I
         channel my passion for technology into creating innovative solutions. I
         love what I do. With extensive experience across the modern web stack, I
         have implemented and architected everything from intuitive front-end
@@ -33,7 +33,7 @@ export default function Home() {
       </p>
       <a
         href="/documents/resume.pdf"
-        download="jusexton-resume.pdf"
+        download="justin-sexton-resume.pdf"
         className={styles.button}
       >
         <span>Resume</span>
